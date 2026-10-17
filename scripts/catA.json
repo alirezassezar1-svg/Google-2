@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "lang-javascript",
+    "name": "JavaScript",
+    "aliases": [
+      "JS",
+      "ES6+"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Core Web Scripting",
+    "shortDescription": "High-level, just-in-time compiled language with first-class functions.",
+    "detailedExplanation": "JavaScript is a foundational technology in software engineering. High-level, just-in-time compiled language with first-class functions. It plays a primary role in Dynamic web and server development.",
+    "mainPurpose": "Dynamic web and server development.",
+    "typicalUseCases": [
+      "Web apps",
+      "APIs",
+      "CLIs"
+    ],
+    "relatedLanguages": [
+      "JavaScript"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "V8, SpiderMonkey, JavaScriptCore, Node.js, Deno, Bun",
+    "buildRequirements": "None (interpretable) or Babel/esbuild/SWC bundler",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "frontend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "HTML5",
+        "CSS3",
+        "Node.js",
+        "TypeScript"
+      ],
+      "alternatives": [
+        "TypeScript",
+        "Python"
+      ]
+    },
+    "hostingOptions": [
+      "Vercel",
+      "Netlify",
+      "Node servers",
+      "Cloudflare"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Ubiquitous in browsers",
+      "Huge package ecosystem",
+      "Async event loop"
+    ],
+    "limitations": [
+      "Dynamic typing can cause runtime errors",
+      "Prototype quirks"
+    ],
+    "knownConstraints": [
+      "Varying engine implementations in older browsers"
+    ],
+    "securityNotes": "Validate inputs, prevent XSS with sanitized DOM rendering.",
+    "docsUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "repoUrl": "https://github.com/tc39/ecma262",
+    "license": "ECMA / ISO Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-typescript",
+    "name": "TypeScript",
+    "aliases": [
+      "TS"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Typed JavaScript Superset",
+    "shortDescription": "Typed superset of JavaScript that compiles to plain JavaScript.",
+    "detailedExplanation": "TypeScript is a foundational technology in software engineering. Typed superset of JavaScript that compiles to plain JavaScript. It plays a primary role in Type safety in large codebases.",
+    "mainPurpose": "Type safety in large codebases.",
+    "typicalUseCases": [
+      "Enterprise web apps",
+      "Node backends",
+      "SDK development"
+    ],
+    "relatedLanguages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Requires compilation to JS or native TS execution (Deno/Bun)",
+    "buildRequirements": "TypeScript compiler (tsc) or modern bundler (Vite, esbuild)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "fullstack",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Node.js",
+        "React",
+        "Next.js",
+        "Vitest"
+      ],
+      "alternatives": [
+        "JavaScript",
+        "Flow"
+      ]
+    },
+    "hostingOptions": [
+      "Any host supporting JavaScript runtime"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Compile-time type checking",
+      "Rich IDE autocompletion",
+      "Refactoring confidence"
+    ],
+    "limitations": [
+      "Build step required",
+      "Type complexity in advanced generics"
+    ],
+    "knownConstraints": [
+      "Must compile to JavaScript before running in standard browsers"
+    ],
+    "securityNotes": "Prevents type-related bugs; does not sanitize runtime inputs.",
+    "docsUrl": "https://www.typescriptlang.org/docs/",
+    "repoUrl": "https://github.com/microsoft/TypeScript",
+    "license": "Apache-2.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-python",
+    "name": "Python",
+    "aliases": [
+      "Py",
+      "Python3"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "General-Purpose & Data Science",
+    "shortDescription": "Interpreted, high-level, general-purpose programming language with dynamic semantics.",
+    "detailedExplanation": "Python is a foundational technology in software engineering. Interpreted, high-level, general-purpose programming language with dynamic semantics. It plays a primary role in AI, machine learning, backend web APIs, data analysis, automation.",
+    "mainPurpose": "AI, machine learning, backend web APIs, data analysis, automation.",
+    "typicalUseCases": [
+      "Machine Learning",
+      "FastAPI/Django backends",
+      "Data analysis",
+      "DevOps scripting"
+    ],
+    "relatedLanguages": [
+      "Python"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "CPython, PyPy, or micro-runtimes (3.10+)",
+    "buildRequirements": "None required; virtual environments (venv, uv, poetry) recommended",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "FastAPI",
+        "PyTorch",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "alternatives": [
+        "Ruby",
+        "Julia",
+        "Go"
+      ]
+    },
+    "hostingOptions": [
+      "AWS",
+      "Google Cloud",
+      "VPS",
+      "Render",
+      "DigitalOcean"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Clean, readable syntax",
+      "Dominant in AI & data science",
+      "Massive scientific library ecosystem"
+    ],
+    "limitations": [
+      "Global Interpreter Lock (GIL) limits CPU threading (improving in 3.13)",
+      "Higher memory footprint than compiled languages"
+    ],
+    "knownConstraints": [
+      "Requires Python runtime on host"
+    ],
+    "securityNotes": "Audit PyPI dependencies, protect against SQL/command injection.",
+    "docsUrl": "https://docs.python.org/3/",
+    "repoUrl": "https://github.com/python/cpython",
+    "license": "PSF License",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-php",
+    "name": "PHP",
+    "aliases": [
+      "PHP8",
+      "Hypertext Preprocessor"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Server-Side Web Scripting",
+    "shortDescription": "Server scripting language designed specifically for dynamic web development.",
+    "detailedExplanation": "PHP is a foundational technology in software engineering. Server scripting language designed specifically for dynamic web development. It plays a primary role in Powering CMSs, REST APIs, and monolithic web applications.",
+    "mainPurpose": "Powering CMSs, REST APIs, and monolithic web applications.",
+    "typicalUseCases": [
+      "WordPress/CMS",
+      "Laravel web applications",
+      "E-commerce (WooCommerce)"
+    ],
+    "relatedLanguages": [
+      "PHP",
+      "SQL"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "PHP-FPM, Apache mod_php, or CLI runtime (PHP 8.2+)",
+    "buildRequirements": "None or Composer for package management",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Laravel",
+        "MySQL",
+        "Composer",
+        "Nginx"
+      ],
+      "alternatives": [
+        "Python",
+        "Ruby",
+        "Node.js"
+      ]
+    },
+    "hostingOptions": [
+      "Shared hosting",
+      "VPS",
+      "AWS",
+      "Laravel Forge"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Native integration with web servers and databases",
+      "Huge hosting availability and low-cost deployment",
+      "Modern PHP 8+ features strong typing and JIT"
+    ],
+    "limitations": [
+      "Inconsistent legacy APIs in older codebases",
+      "Stateless request cycle without persistent memory by default"
+    ],
+    "knownConstraints": [
+      "Requires PHP interpreter on server; cannot run on static-only hosting"
+    ],
+    "securityNotes": "Ensure PDO prepared statements, validate uploads, avoid eval.",
+    "docsUrl": "https://www.php.net/docs.php",
+    "repoUrl": "https://github.com/php/php-src",
+    "license": "PHP License v3.01",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-java",
+    "name": "Java",
+    "aliases": [
+      "OpenJDK",
+      "JVM Java"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Object-Oriented Enterprise Platform",
+    "shortDescription": "Class-based, object-oriented language designed for cross-platform portability via the JVM.",
+    "detailedExplanation": "Java is a foundational technology in software engineering. Class-based, object-oriented language designed for cross-platform portability via the JVM. It plays a primary role in Enterprise backend services, Android apps, and high-throughput systems.",
+    "mainPurpose": "Enterprise backend services, Android apps, and high-throughput systems.",
+    "typicalUseCases": [
+      "Enterprise microservices",
+      "High-volume financial systems",
+      "Big data (Kafka, Spark)"
+    ],
+    "relatedLanguages": [
+      "Java"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Java Virtual Machine (JVM 17+ or 21 LTS)",
+    "buildRequirements": "Maven or Gradle build toolchain (javac)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Spring Boot",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "alternatives": [
+        "Kotlin",
+        "C#",
+        "Scala"
+      ]
+    },
+    "hostingOptions": [
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "Kubernetes"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Strong memory safety and battle-tested JVM",
+      "Rich enterprise ecosystem",
+      "Excellent backwards compatibility"
+    ],
+    "limitations": [
+      "Verbose syntax compared to modern alternatives",
+      "JVM memory overhead and startup latency"
+    ],
+    "knownConstraints": [
+      "Requires JVM runtime on host environment"
+    ],
+    "securityNotes": "Keep log4j and dependencies updated; configure secure JVM security managers.",
+    "docsUrl": "https://docs.oracle.com/en/java/",
+    "repoUrl": "https://github.com/openjdk/jdk",
+    "license": "GPL-2.0 with Classpath Exception",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-kotlin",
+    "name": "Kotlin",
+    "aliases": [
+      "KT"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Modern Multiplatform & Android",
+    "shortDescription": "Modern statically typed language targeting JVM, Android, JS, and Native binaries.",
+    "detailedExplanation": "Kotlin is a foundational technology in software engineering. Modern statically typed language targeting JVM, Android, JS, and Native binaries. It plays a primary role in First-class Android app development and concise backend microservices.",
+    "mainPurpose": "First-class Android app development and concise backend microservices.",
+    "typicalUseCases": [
+      "Android apps",
+      "Spring Boot / Ktor backends",
+      "Multiplatform mobile logic"
+    ],
+    "relatedLanguages": [
+      "Kotlin",
+      "Java"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "JVM (backend) or Android OS runtime or Native binary",
+    "buildRequirements": "Gradle or Maven with kotlin-compiler",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "mobile",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Jetpack Compose",
+        "Android SDK",
+        "Spring Boot"
+      ],
+      "alternatives": [
+        "Java",
+        "Swift",
+        "Scala"
+      ]
+    },
+    "hostingOptions": [
+      "Google Play",
+      "JVM hosts",
+      "Docker"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Null safety built into the type system",
+      "100% interoperable with Java",
+      "Concise and expressive syntax"
+    ],
+    "limitations": [
+      "Slower build times than Java",
+      "Smaller community outside Android compared to Java"
+    ],
+    "knownConstraints": [
+      "Android compilation requires Android SDK and Gradle"
+    ],
+    "securityNotes": "Leverage strong static typing; validate serialized payloads.",
+    "docsUrl": "https://kotlinlang.org/docs/home.html",
+    "repoUrl": "https://github.com/JetBrains/kotlin",
+    "license": "Apache-2.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-swift",
+    "name": "Swift",
+    "aliases": [
+      "Apple Swift"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Apple Platforms & Systems",
+    "shortDescription": "Powerful and intuitive programming language for iOS, iPadOS, macOS, watchOS, and Linux.",
+    "detailedExplanation": "Swift is a foundational technology in software engineering. Powerful and intuitive programming language for iOS, iPadOS, macOS, watchOS, and Linux. It plays a primary role in Native iOS and macOS application development, performance-critical services.",
+    "mainPurpose": "Native iOS and macOS application development, performance-critical services.",
+    "typicalUseCases": [
+      "iOS/iPadOS apps",
+      "macOS native apps",
+      "SwiftUI interfaces",
+      "Server-side Swift (Vapor)"
+    ],
+    "relatedLanguages": [
+      "Swift"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Apple operating systems or Swift Linux runtime",
+    "buildRequirements": "Xcode (macOS) or Swift toolchain (swiftc)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "mobile",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "SwiftUI",
+        "UIKit",
+        "Xcode"
+      ],
+      "alternatives": [
+        "Kotlin",
+        "Rust",
+        "Objective-C"
+      ]
+    },
+    "hostingOptions": [
+      "Apple App Store",
+      "Linux server (Vapor)"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Native performance with ARC memory safety",
+      "Modern functional and procedural syntax",
+      "Deep integration with Apple hardware"
+    ],
+    "limitations": [
+      "Primarily limited to Apple ecosystem in commercial practice",
+      "Cross-platform GUI tools are experimental"
+    ],
+    "knownConstraints": [
+      "Requires macOS and Xcode to build iOS/macOS applications"
+    ],
+    "securityNotes": "Use ARC properly to prevent retain cycles; enforce App Transport Security.",
+    "docsUrl": "https://www.swift.org/documentation/",
+    "repoUrl": "https://github.com/apple/swift",
+    "license": "Apache-2.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-c",
+    "name": "C",
+    "aliases": [
+      "C11",
+      "C17",
+      "C23"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Low-Level Systems Programming",
+    "shortDescription": "Imperative procedural language providing close-to-hardware memory access.",
+    "detailedExplanation": "C is a foundational technology in software engineering. Imperative procedural language providing close-to-hardware memory access. It plays a primary role in Operating systems, embedded microcontrollers, database engines, and runtime kernels.",
+    "mainPurpose": "Operating systems, embedded microcontrollers, database engines, and runtime kernels.",
+    "typicalUseCases": [
+      "Operating system kernels",
+      "Embedded systems",
+      "Device drivers",
+      "Game engines"
+    ],
+    "relatedLanguages": [
+      "C"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Hardware architecture (compiled to native machine code)",
+    "buildRequirements": "GCC, Clang, or MSVC compiler",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "tooling",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Make",
+        "CMake",
+        "Linux kernel"
+      ],
+      "alternatives": [
+        "C++",
+        "Rust",
+        "Zig"
+      ]
+    },
+    "hostingOptions": [
+      "Bare metal",
+      "Embedded",
+      "Linux servers"
+    ],
+    "learningDifficulty": 4,
+    "advantages": [
+      "Absolute control over memory and hardware instructions",
+      "Near-zero runtime overhead",
+      "Universal C ABI interoperability"
+    ],
+    "limitations": [
+      "Manual memory management prone to buffer overflows and memory leaks",
+      "No native package manager or modules"
+    ],
+    "knownConstraints": [
+      "Requires platform-specific compilation; no automated memory safety"
+    ],
+    "securityNotes": "Guard against buffer overflows, use AddressSanitizer, avoid unsafe string functions.",
+    "docsUrl": "https://en.cppreference.com/w/c",
+    "repoUrl": "",
+    "license": "ISO Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-cpp",
+    "name": "C++",
+    "aliases": [
+      "CPP",
+      "C++20",
+      "C++23"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "High-Performance Systems & Graphics",
+    "shortDescription": "General-purpose systems language with zero-cost abstractions, object orientation, and templates.",
+    "detailedExplanation": "C++ is a foundational technology in software engineering. General-purpose systems language with zero-cost abstractions, object orientation, and templates. It plays a primary role in High-performance graphics engines, browsers, databases, and scientific simulations.",
+    "mainPurpose": "High-performance graphics engines, browsers, databases, and scientific simulations.",
+    "typicalUseCases": [
+      "Game engines (Unreal)",
+      "Web browser engines (Chromium)",
+      "High-frequency trading"
+    ],
+    "relatedLanguages": [
+      "C++"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Native machine code execution",
+    "buildRequirements": "CMake, GCC, Clang, or MSVC",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "tooling",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "CMake",
+        "LLVM",
+        "Vulkan",
+        "Unreal Engine"
+      ],
+      "alternatives": [
+        "Rust",
+        "C",
+        "D"
+      ]
+    },
+    "hostingOptions": [
+      "Native binaries",
+      "Bare metal",
+      "Game consoles"
+    ],
+    "learningDifficulty": 4,
+    "advantages": [
+      "Extreme execution speed and memory control",
+      "Rich standard template library (STL)",
+      "Broad hardware support"
+    ],
+    "limitations": [
+      "Steep learning curve and large, complex language specification",
+      "Undetected undefined behavior risk"
+    ],
+    "knownConstraints": [
+      "Compilation time can be lengthy for large template codebases"
+    ],
+    "securityNotes": "Employ RAII, smart pointers, static analyzers, and sanitizers.",
+    "docsUrl": "https://en.cppreference.com/w/cpp",
+    "repoUrl": "",
+    "license": "ISO Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-csharp",
+    "name": "C#",
+    "aliases": [
+      "CSharp",
+      ".NET C#"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Modern General-Purpose OOP",
+    "shortDescription": "Modern, object-oriented, type-safe programming language developed by Microsoft for .NET.",
+    "detailedExplanation": "C# is a foundational technology in software engineering. Modern, object-oriented, type-safe programming language developed by Microsoft for .NET. It plays a primary role in Web APIs (ASP.NET Core), cross-platform desktop, enterprise services, and games (Unity).",
+    "mainPurpose": "Web APIs (ASP.NET Core), cross-platform desktop, enterprise services, and games (Unity).",
+    "typicalUseCases": [
+      "ASP.NET Core APIs",
+      "Unity game development",
+      "WPF / MAUI applications"
+    ],
+    "relatedLanguages": [
+      "C#"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": ".NET Runtime (CoreCLR 8+)",
+    "buildRequirements": ".NET SDK (dotnet build / MSBuild)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "ASP.NET Core",
+        "SQL Server",
+        "Entity Framework Core"
+      ],
+      "alternatives": [
+        "Java",
+        "TypeScript",
+        "Go"
+      ]
+    },
+    "hostingOptions": [
+      "Azure",
+      "AWS",
+      "Docker",
+      "Windows Server"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Comprehensive unified .NET ecosystem",
+      "High performance with Span<T> and SIMD",
+      "First-class async/await support"
+    ],
+    "limitations": [
+      "Historical Windows legacy perception (though now fully cross-platform)",
+      "Larger binary footprints for self-contained deploys"
+    ],
+    "knownConstraints": [
+      "Requires .NET SDK for building and testing"
+    ],
+    "securityNotes": "Enforce HTTPS, anti-forgery tokens in Razor, and parameterized EF queries.",
+    "docsUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "repoUrl": "https://github.com/dotnet/csharplang",
+    "license": "MIT / ECMA Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-rust",
+    "name": "Rust",
+    "aliases": [
+      "Rustlang",
+      "rs"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Memory-Safe Systems Programming",
+    "shortDescription": "Systems programming language focused on safety, speed, and concurrency without garbage collection.",
+    "detailedExplanation": "Rust is a foundational technology in software engineering. Systems programming language focused on safety, speed, and concurrency without garbage collection. It plays a primary role in High-concurrency servers, CLI tools, cryptographic engines, and WebAssembly modules.",
+    "mainPurpose": "High-concurrency servers, CLI tools, cryptographic engines, and WebAssembly modules.",
+    "typicalUseCases": [
+      "Fast network services (Axum)",
+      "WebAssembly browser engines",
+      "Crypto & Blockchain",
+      "CLI tools"
+    ],
+    "relatedLanguages": [
+      "Rust"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Compiled to native machine code or Wasm",
+    "buildRequirements": "Cargo and rustc compiler",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Cargo",
+        "Tokio",
+        "Axum",
+        "WebAssembly"
+      ],
+      "alternatives": [
+        "Go",
+        "C++",
+        "C"
+      ]
+    },
+    "hostingOptions": [
+      "AWS",
+      "Bare metal",
+      "Docker",
+      "Cloudflare Workers"
+    ],
+    "learningDifficulty": 4,
+    "advantages": [
+      "Compile-time memory safety via ownership model",
+      "Zero-cost abstractions with no GC pauses",
+      "Outstanding Cargo tooling and package manager"
+    ],
+    "limitations": [
+      "Steep learning curve with borrow checker",
+      "Longer compile times compared to Go"
+    ],
+    "knownConstraints": [
+      "Requires rustc compiler; strict borrow rules require architectural planning"
+    ],
+    "securityNotes": "Guaranteed absence of data races and null pointer dereferences at compile-time.",
+    "docsUrl": "https://doc.rust-lang.org/book/",
+    "repoUrl": "https://github.com/rust-lang/rust",
+    "license": "MIT / Apache-2.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-go",
+    "name": "Go",
+    "aliases": [
+      "Golang"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Concurrent Cloud Infrastructure",
+    "shortDescription": "Statically typed, compiled programming language designed at Google for concurrent network services.",
+    "detailedExplanation": "Go is a foundational technology in software engineering. Statically typed, compiled programming language designed at Google for concurrent network services. It plays a primary role in Cloud infrastructure tools (Docker, Kubernetes), high-scale microservices, CLI applications.",
+    "mainPurpose": "Cloud infrastructure tools (Docker, Kubernetes), high-scale microservices, CLI applications.",
+    "typicalUseCases": [
+      "Cloud-native microservices",
+      "DevOps tooling (Terraform, Docker)",
+      "High-throughput network proxies"
+    ],
+    "relatedLanguages": [
+      "Go"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Native machine code with lightweight Go runtime and scheduler",
+    "buildRequirements": "Go toolchain (go build)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "gRPC"
+      ],
+      "alternatives": [
+        "Rust",
+        "Java",
+        "Python"
+      ]
+    },
+    "hostingOptions": [
+      "Kubernetes",
+      "AWS",
+      "Google Cloud",
+      "VPS"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Super fast compilation and simple grammar",
+      "Lightweight goroutines for high concurrency",
+      "Single static binary deployment"
+    ],
+    "limitations": [
+      "Lack of traditional OOP inheritance (by design)",
+      "Simpler type system compared to Rust or TypeScript"
+    ],
+    "knownConstraints": [
+      "Garbage collection may introduce minor micro-pauses in extreme latency-critical apps"
+    ],
+    "securityNotes": "Built-in race detector (go test -race) and standard crypto packages.",
+    "docsUrl": "https://go.dev/doc/",
+    "repoUrl": "https://github.com/golang/go",
+    "license": "BSD-3-Clause",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-dart",
+    "name": "Dart",
+    "aliases": [
+      "Dartlang"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Client-Optimized Multiplatform",
+    "shortDescription": "Client-optimized language for fast apps on any platform, developed by Google.",
+    "detailedExplanation": "Dart is a foundational technology in software engineering. Client-optimized language for fast apps on any platform, developed by Google. It plays a primary role in Powering Flutter multiplatform apps for iOS, Android, web, and desktop.",
+    "mainPurpose": "Powering Flutter multiplatform apps for iOS, Android, web, and desktop.",
+    "typicalUseCases": [
+      "Flutter mobile apps",
+      "Cross-platform desktop utilities",
+      "Web applications"
+    ],
+    "relatedLanguages": [
+      "Dart"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Dart VM (JIT for dev) and AOT native compiler",
+    "buildRequirements": "Dart SDK or Flutter SDK",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "mobile",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Flutter",
+        "Android SDK",
+        "iOS SDK"
+      ],
+      "alternatives": [
+        "TypeScript",
+        "Kotlin",
+        "Swift"
+      ]
+    },
+    "hostingOptions": [
+      "Google Play",
+      "Apple App Store",
+      "Web hosts"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Fast JIT iteration with hot reload and fast AOT production builds",
+      "Null safety and familiar C-style syntax",
+      "Shared codebase across iOS, Android, and Web"
+    ],
+    "limitations": [
+      "Smaller standalone ecosystem outside the Flutter framework",
+      "Limited server-side adoption"
+    ],
+    "knownConstraints": [
+      "Requires Flutter SDK for multiplatform UI deployment"
+    ],
+    "securityNotes": "Sanitize inputs and secure client-side storage keys.",
+    "docsUrl": "https://dart.dev/guides",
+    "repoUrl": "https://github.com/dart-lang/sdk",
+    "license": "BSD-3-Clause",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-ruby",
+    "name": "Ruby",
+    "aliases": [
+      "Ruby3"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Dynamic Developer-Happiness Scripting",
+    "shortDescription": "Dynamic, open source programming language with a focus on simplicity and productivity.",
+    "detailedExplanation": "Ruby is a foundational technology in software engineering. Dynamic, open source programming language with a focus on simplicity and productivity. It plays a primary role in Rapid web application development with Ruby on Rails, automation, and prototyping.",
+    "mainPurpose": "Rapid web application development with Ruby on Rails, automation, and prototyping.",
+    "typicalUseCases": [
+      "Ruby on Rails web applications",
+      "DevOps scripts (Chef/Puppet)",
+      "Rapid MVP prototyping"
+    ],
+    "relatedLanguages": [
+      "Ruby"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "YARV Ruby interpreter (3.0+)",
+    "buildRequirements": "None or Bundler for gems",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Ruby on Rails",
+        "PostgreSQL",
+        "Redis",
+        "Sidekiq"
+      ],
+      "alternatives": [
+        "Python",
+        "PHP",
+        "Node.js"
+      ]
+    },
+    "hostingOptions": [
+      "Heroku",
+      "Render",
+      "Fly.io",
+      "VPS"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Elegant, human-friendly syntax",
+      "Convention over configuration in Rails ecosystem",
+      "Fast iteration for MVP development"
+    ],
+    "limitations": [
+      "Slower raw CPU execution speed than compiled languages",
+      "Higher memory footprint per worker process"
+    ],
+    "knownConstraints": [
+      "Requires Ruby environment installed on host"
+    ],
+    "securityNotes": "Audit Gems with bundler-audit; enforce CSRF and parameter whitelisting in Rails.",
+    "docsUrl": "https://www.ruby-lang.org/en/documentation/",
+    "repoUrl": "https://github.com/ruby/ruby",
+    "license": "2-clause BSDL",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-elixir",
+    "name": "Elixir",
+    "aliases": [
+      "BEAM Elixir"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Fault-Tolerant Concurrent Systems",
+    "shortDescription": "Functional, concurrent, general-purpose programming language that runs on the Erlang BEAM VM.",
+    "detailedExplanation": "Elixir is a foundational technology in software engineering. Functional, concurrent, general-purpose programming language that runs on the Erlang BEAM VM. It plays a primary role in High-concurrency chat systems, real-time web applications (Phoenix LiveView), and telecom.",
+    "mainPurpose": "High-concurrency chat systems, real-time web applications (Phoenix LiveView), and telecom.",
+    "typicalUseCases": [
+      "Real-time collaborative applications",
+      "Chat backends",
+      "IoT data ingestion"
+    ],
+    "relatedLanguages": [
+      "Elixir",
+      "Erlang"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Erlang/OTP runtime (BEAM)",
+    "buildRequirements": "Mix build tool (elixirc)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Phoenix",
+        "PostgreSQL",
+        "Erlang OTP"
+      ],
+      "alternatives": [
+        "Go",
+        "Node.js",
+        "Scala"
+      ]
+    },
+    "hostingOptions": [
+      "Fly.io",
+      "AWS",
+      "Gigalixir",
+      "Docker"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Exceptional concurrency and fault tolerance via actor model",
+      "Lightweight BEAM processes",
+      "Phoenix LiveView allows real-time UI without complex JS"
+    ],
+    "limitations": [
+      "Smaller talent pool compared to Node or Python",
+      "Functional paradigm requires mindset shift"
+    ],
+    "knownConstraints": [
+      "Requires Erlang runtime on target deployment system"
+    ],
+    "securityNotes": "Supervision trees isolate crashes; secure WebSocket channels.",
+    "docsUrl": "https://elixir-lang.org/docs.html",
+    "repoUrl": "https://github.com/elixir-lang/elixir",
+    "license": "Apache-2.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-scala",
+    "name": "Scala",
+    "aliases": [
+      "Scala3"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Functional & Object-Oriented JVM",
+    "shortDescription": "Combines object-oriented and functional programming in one concise, high-level language.",
+    "detailedExplanation": "Scala is a foundational technology in software engineering. Combines object-oriented and functional programming in one concise, high-level language. It plays a primary role in Distributed data processing (Apache Spark), reactive systems, and complex financial backends.",
+    "mainPurpose": "Distributed data processing (Apache Spark), reactive systems, and complex financial backends.",
+    "typicalUseCases": [
+      "Big data pipelines (Spark)",
+      "High-throughput microservices (Akka/Pekko)",
+      "Data engineering"
+    ],
+    "relatedLanguages": [
+      "Scala",
+      "Java"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Java Virtual Machine (JVM)",
+    "buildRequirements": "sbt or Mill build tool",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Apache Spark",
+        "Kafka",
+        "JVM"
+      ],
+      "alternatives": [
+        "Java",
+        "Kotlin",
+        "Rust"
+      ]
+    },
+    "hostingOptions": [
+      "Kubernetes",
+      "AWS",
+      "Google Cloud"
+    ],
+    "learningDifficulty": 4,
+    "advantages": [
+      "Advanced type system and pattern matching",
+      "Deep integration with Java and Apache Spark",
+      "Powerful functional abstractions"
+    ],
+    "limitations": [
+      "Complex language syntax and steep learning curve",
+      "Slower compilation times compared to Java"
+    ],
+    "knownConstraints": [
+      "Requires JVM infrastructure"
+    ],
+    "securityNotes": "Type safety guarantees invariants at compile-time.",
+    "docsUrl": "https://docs.scala-lang.org/",
+    "repoUrl": "https://github.com/scala/scala3",
+    "license": "Apache-2.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-r",
+    "name": "R",
+    "aliases": [
+      "R-project"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Statistical Computing & Graphics",
+    "shortDescription": "Language and environment for statistical computing, data analysis, and graphical techniques.",
+    "detailedExplanation": "R is a foundational technology in software engineering. Language and environment for statistical computing, data analysis, and graphical techniques. It plays a primary role in Academic research, bioinformatics, financial risk modeling, and statistical visualizations.",
+    "mainPurpose": "Academic research, bioinformatics, financial risk modeling, and statistical visualizations.",
+    "typicalUseCases": [
+      "Statistical analysis",
+      "Bioinformatics",
+      "Data visualization (ggplot2)",
+      "Clinical trials"
+    ],
+    "relatedLanguages": [
+      "R"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "R interpreter environment",
+    "buildRequirements": "R CLI or RStudio",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "ai",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "ggplot2",
+        "dplyr",
+        "Jupyter",
+        "Shiny"
+      ],
+      "alternatives": [
+        "Python",
+        "Julia",
+        "MATLAB"
+      ]
+    },
+    "hostingOptions": [
+      "RStudio Server",
+      "Posit Connect",
+      "Cloud"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Unmatched statistical packages via CRAN",
+      "Exceptional data visualization libraries",
+      "Tailored for data analysts and scientists"
+    ],
+    "limitations": [
+      "In-memory single-threaded processing by default",
+      "Less suited for general backend web services"
+    ],
+    "knownConstraints": [
+      "Requires R runtime environment"
+    ],
+    "securityNotes": "Secure Shiny web applications against unescaped inputs.",
+    "docsUrl": "https://www.r-project.org/other-docs.html",
+    "repoUrl": "https://github.com/r-devel/r-svn",
+    "license": "GPL-2.0+",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-julia",
+    "name": "Julia",
+    "aliases": [
+      "Julialang"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "High-Performance Numerical Science",
+    "shortDescription": "High-level, high-performance dynamic programming language for technical computing.",
+    "detailedExplanation": "Julia is a foundational technology in software engineering. High-level, high-performance dynamic programming language for technical computing. It plays a primary role in Numerical simulation, scientific machine learning, differential equations, and physics modeling.",
+    "mainPurpose": "Numerical simulation, scientific machine learning, differential equations, and physics modeling.",
+    "typicalUseCases": [
+      "Scientific computing",
+      "Differential equations",
+      "Machine learning (Flux)",
+      "Quantum simulation"
+    ],
+    "relatedLanguages": [
+      "Julia"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Julia runtime with LLVM JIT compiler",
+    "buildRequirements": "Julia package manager (Pkg)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "ai",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Flux.jl",
+        "DifferentialEquations.jl",
+        "Jupyter"
+      ],
+      "alternatives": [
+        "Python",
+        "R",
+        "C++"
+      ]
+    },
+    "hostingOptions": [
+      "Scientific computing clusters",
+      "Cloud VMs"
+    ],
+    "learningDifficulty": 3,
+    "advantages": [
+      "Solves the \"two-language problem\" (easy syntax, C-like speed)",
+      "Multiple dispatch architecture",
+      "Native mathematical notation support"
+    ],
+    "limitations": [
+      "Time to first plot (TTFP) compilation latency on startup",
+      "Smaller web dev ecosystem compared to Python"
+    ],
+    "knownConstraints": [
+      "Requires Julia runtime installation"
+    ],
+    "securityNotes": "Standard scientific integrity and input validation.",
+    "docsUrl": "https://docs.julialang.org/",
+    "repoUrl": "https://github.com/JuliaLang/julia",
+    "license": "MIT",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-lua",
+    "name": "Lua",
+    "aliases": [
+      "LuaJIT"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Lightweight Embedded Scripting",
+    "shortDescription": "Powerful, efficient, lightweight, embeddable scripting language.",
+    "detailedExplanation": "Lua is a foundational technology in software engineering. Powerful, efficient, lightweight, embeddable scripting language. It plays a primary role in Game scripting (Roblox, World of Warcraft), web server scripting (OpenResty/Nginx), and Redis.",
+    "mainPurpose": "Game scripting (Roblox, World of Warcraft), web server scripting (OpenResty/Nginx), and Redis.",
+    "typicalUseCases": [
+      "Game engine logic",
+      "Redis server scripts",
+      "API gateway routing (Kong, OpenResty)"
+    ],
+    "relatedLanguages": [
+      "Lua"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Lua interpreter or LuaJIT engine",
+    "buildRequirements": "None (interpretable) or C integration toolchain",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "tooling",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Redis",
+        "Nginx",
+        "OpenResty"
+      ],
+      "alternatives": [
+        "JavaScript",
+        "Python"
+      ]
+    },
+    "hostingOptions": [
+      "Embedded in host applications",
+      "Nginx edge"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Tiny memory footprint and fast startup",
+      "Extremely easy to embed in C/C++ applications",
+      "Blazing fast JIT compiler (LuaJIT)"
+    ],
+    "limitations": [
+      "1-indexed arrays can trip up programmers from other languages",
+      "Minimal standard library by default"
+    ],
+    "knownConstraints": [
+      "Often requires host C application to run in practical setups"
+    ],
+    "securityNotes": "Sandbox Lua environments when executing user-generated scripts in games or gateways.",
+    "docsUrl": "https://www.lua.org/docs.html",
+    "repoUrl": "",
+    "license": "MIT",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-sql",
+    "name": "SQL",
+    "aliases": [
+      "Structured Query Language",
+      "ANSI SQL"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Relational Database Queries",
+    "shortDescription": "Domain-specific language used in programming and designed for managing data held in an RDBMS.",
+    "detailedExplanation": "SQL is a foundational technology in software engineering. Domain-specific language used in programming and designed for managing data held in an RDBMS. It plays a primary role in Querying, inserting, updating, and joining structured relational databases.",
+    "mainPurpose": "Querying, inserting, updating, and joining structured relational databases.",
+    "typicalUseCases": [
+      "Database schema definition (DDL)",
+      "Complex data joins and aggregations (DML)",
+      "Analytics"
+    ],
+    "relatedLanguages": [
+      "SQL"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Relational database engine (PostgreSQL, MySQL, SQLite, etc.)",
+    "buildRequirements": "None (executed by database server)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "database",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "Prisma",
+        "Drizzle"
+      ],
+      "alternatives": [
+        "GraphQL",
+        "MongoDB Query Language"
+      ]
+    },
+    "hostingOptions": [
+      "Managed cloud databases",
+      "Self-hosted RDBMS"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Declarative, battle-tested standard for data retrieval",
+      "ACID compliance support in compliant engines",
+      "Extremely powerful query optimizers"
+    ],
+    "limitations": [
+      "Different database vendors introduce non-standard dialect variations",
+      "Object-relational impedance mismatch"
+    ],
+    "knownConstraints": [
+      "Cannot be called directly from raw web browsers over TCP without a backend/gateway"
+    ],
+    "securityNotes": "Use parameterized queries / prepared statements ALWAYS to prevent SQL injection.",
+    "docsUrl": "https://en.wikipedia.org/wiki/SQL",
+    "repoUrl": "",
+    "license": "ISO/IEC 9075 Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-bash",
+    "name": "Bash",
+    "aliases": [
+      "Bourne Again SHell",
+      "Shell Script"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Unix Command Automation",
+    "shortDescription": "Unix shell and command language written as a free software replacement for the Bourne shell.",
+    "detailedExplanation": "Bash is a foundational technology in software engineering. Unix shell and command language written as a free software replacement for the Bourne shell. It plays a primary role in CI/CD pipeline automation, server provisioning, container initialization, and task orchestration.",
+    "mainPurpose": "CI/CD pipeline automation, server provisioning, container initialization, and task orchestration.",
+    "typicalUseCases": [
+      "CI/CD scripts",
+      "Docker ENTRYPOINT scripts",
+      "System administration",
+      "Local dev tooling"
+    ],
+    "relatedLanguages": [
+      "Bash",
+      "Shell"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "GNU Bash interpreter (Linux, macOS, WSL)",
+    "buildRequirements": "None",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "tooling",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Linux",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "alternatives": [
+        "PowerShell",
+        "Python",
+        "Zsh"
+      ]
+    },
+    "hostingOptions": [
+      "Linux servers",
+      "CI/CD runners",
+      "Containers"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Available out-of-the-box on virtually every Linux distribution",
+      "Direct execution of system commands and pipes",
+      "Lightweight and zero-dependency"
+    ],
+    "limitations": [
+      "Cryptic error handling and tricky whitespace quoting rules",
+      "Poor performance for complex data structures"
+    ],
+    "knownConstraints": [
+      "Non-standard behavior across different shell implementations (sh vs bash vs zsh)"
+    ],
+    "securityNotes": "Quote variables strictly, use `set -euo pipefail`, never execute untrusted strings.",
+    "docsUrl": "https://www.gnu.org/software/bash/manual/",
+    "repoUrl": "",
+    "license": "GPL-3.0+",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-powershell",
+    "name": "PowerShell",
+    "aliases": [
+      "pwsh",
+      "PS Core"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Object-Oriented Task Automation",
+    "shortDescription": "Cross-platform task automation solution made up of a command-line shell and scripting language.",
+    "detailedExplanation": "PowerShell is a foundational technology in software engineering. Cross-platform task automation solution made up of a command-line shell and scripting language. It plays a primary role in Windows and cloud administration, Azure automation, DevOps orchestration with structured objects.",
+    "mainPurpose": "Windows and cloud administration, Azure automation, DevOps orchestration with structured objects.",
+    "typicalUseCases": [
+      "Cloud infrastructure automation (Azure/AWS)",
+      "Windows enterprise management",
+      "Cross-platform DevOps"
+    ],
+    "relatedLanguages": [
+      "PowerShell",
+      "C#"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": ".NET runtime (PowerShell Core 7+)",
+    "buildRequirements": "None",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "tooling",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Azure CLI",
+        ".NET",
+        "GitHub Actions"
+      ],
+      "alternatives": [
+        "Bash",
+        "Python"
+      ]
+    },
+    "hostingOptions": [
+      "Windows Server",
+      "Linux runners",
+      "Azure Cloud Shell"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Passes typed .NET objects down the pipeline rather than raw text strings",
+      "Rich cmdlet ecosystem for enterprise administration",
+      "Cross-platform on Windows, Linux, and macOS"
+    ],
+    "limitations": [
+      "Verb-Noun syntax can be verbose",
+      "Slower startup time than native Bash for simple commands"
+    ],
+    "knownConstraints": [
+      "Requires PowerShell Core installation on Linux/macOS"
+    ],
+    "securityNotes": "Enforce execution policies and inspect scripts before running.",
+    "docsUrl": "https://learn.microsoft.com/en-us/powershell/",
+    "repoUrl": "https://github.com/PowerShell/PowerShell",
+    "license": "MIT",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-html",
+    "name": "HTML5",
+    "aliases": [
+      "HTML",
+      "HyperText Markup Language"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Web Content Structure",
+    "shortDescription": "Standard markup language for documents designed to be displayed in a web browser.",
+    "detailedExplanation": "HTML5 is a foundational technology in software engineering. Standard markup language for documents designed to be displayed in a web browser. It plays a primary role in Structuring content, forms, semantic layouts, and media embedding for all websites.",
+    "mainPurpose": "Structuring content, forms, semantic layouts, and media embedding for all websites.",
+    "typicalUseCases": [
+      "Web applications",
+      "Email templates",
+      "Mobile web views",
+      "PWA structures"
+    ],
+    "relatedLanguages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Web browser rendering engine (Blink, Gecko, WebKit)",
+    "buildRequirements": "None",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "frontend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "CSS3",
+        "JavaScript"
+      ],
+      "alternatives": [
+        "XML",
+        "Markdown"
+      ]
+    },
+    "hostingOptions": [
+      "Static hosting",
+      "Any web server"
+    ],
+    "learningDifficulty": 1,
+    "advantages": [
+      "Native support in every browser on planet Earth",
+      "Accessible semantic elements (<main>, <article>, <button>)",
+      "Zero compilation needed"
+    ],
+    "limitations": [
+      "Presentation without CSS is rudimentary",
+      "No programmatic logic without JavaScript"
+    ],
+    "knownConstraints": [
+      "Rendered directly by browser; requires valid nesting for accessibility"
+    ],
+    "securityNotes": "Escape HTML entities to prevent Cross-Site Scripting (XSS).",
+    "docsUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "repoUrl": "https://github.com/whatwg/html",
+    "license": "W3C / WHATWG Living Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-css",
+    "name": "CSS3",
+    "aliases": [
+      "CSS",
+      "Cascading Style Sheets"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Web Styling & Visual Layout",
+    "shortDescription": "Style sheet language used for describing the presentation of a document written in HTML.",
+    "detailedExplanation": "CSS3 is a foundational technology in software engineering. Style sheet language used for describing the presentation of a document written in HTML. It plays a primary role in Styling layouts, responsive grid/flexbox systems, dark/light themes, and animations.",
+    "mainPurpose": "Styling layouts, responsive grid/flexbox systems, dark/light themes, and animations.",
+    "typicalUseCases": [
+      "Responsive web design",
+      "Theme switching",
+      "UI design systems",
+      "Animations"
+    ],
+    "relatedLanguages": [
+      "CSS"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Web browser style engine",
+    "buildRequirements": "None or preprocessor (Tailwind, PostCSS, Sass)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "frontend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "HTML5",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "alternatives": [
+        "Sass",
+        "CSS-in-JS"
+      ]
+    },
+    "hostingOptions": [
+      "Static hosting",
+      "Any web server"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Declarative styling with powerful modern features (CSS variables, Grid, Subgrid)",
+      "GPU-accelerated transforms and animations",
+      "Media queries for adaptive responsive viewports"
+    ],
+    "limitations": [
+      "Cascading specificity can become difficult to manage in massive monolithic files",
+      "Older browser quirks"
+    ],
+    "knownConstraints": [
+      "Requires browser layout engine"
+    ],
+    "securityNotes": "Avoid rendering unescaped user styles that could exfiltrate data via font/background URLs.",
+    "docsUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "repoUrl": "",
+    "license": "W3C Recommendation",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-wasm",
+    "name": "WebAssembly",
+    "aliases": [
+      "Wasm"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Binary Execution Format for the Web",
+    "shortDescription": "Binary instruction format for a stack-based virtual machine, designed for near-native web speed.",
+    "detailedExplanation": "WebAssembly is a foundational technology in software engineering. Binary instruction format for a stack-based virtual machine, designed for near-native web speed. It plays a primary role in Running high-performance C++, Rust, or Go code in browsers, serverless edge, and sandboxes.",
+    "mainPurpose": "Running high-performance C++, Rust, or Go code in browsers, serverless edge, and sandboxes.",
+    "typicalUseCases": [
+      "Browser video/audio editing",
+      "3D game engines in browser",
+      "Cryptography libraries",
+      "Edge compute"
+    ],
+    "relatedLanguages": [
+      "WebAssembly",
+      "Rust",
+      "C++",
+      "Go"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Browser Wasm VM, Wasmtime, Wasmer",
+    "buildRequirements": "Rust (wasm-pack), Emscripten (C/C++), or TinyGo",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "fullstack",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Rust",
+        "JavaScript",
+        "Web Workers"
+      ],
+      "alternatives": [
+        "JavaScript JIT",
+        "Native plugins"
+      ]
+    },
+    "hostingOptions": [
+      "Browsers",
+      "Cloudflare Workers",
+      "Fastly Compute"
+    ],
+    "learningDifficulty": 4,
+    "advantages": [
+      "Near-native execution speed inside browser sandbox",
+      "Language-agnostic compilation target (Rust, C++, Go)",
+      "Deterministic and memory-isolated"
+    ],
+    "limitations": [
+      "No direct DOM access without JavaScript interop glue",
+      "Binary debugging can be complex"
+    ],
+    "knownConstraints": [
+      "Browser must support WebAssembly specifications"
+    ],
+    "securityNotes": "Operates within the secure browser memory sandbox.",
+    "docsUrl": "https://webassembly.org/docs/",
+    "repoUrl": "https://github.com/WebAssembly/spec",
+    "license": "W3C Standard",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-solidity",
+    "name": "Solidity",
+    "aliases": [
+      "EVM Solidity"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "Smart Contract Development",
+    "shortDescription": "Statically-typed programming language designed for developing smart contracts on Ethereum.",
+    "detailedExplanation": "Solidity is a foundational technology in software engineering. Statically-typed programming language designed for developing smart contracts on Ethereum. It plays a primary role in Decentralized applications (dApps), token contracts (ERC-20, ERC-721), and DeFi protocols.",
+    "mainPurpose": "Decentralized applications (dApps), token contracts (ERC-20, ERC-721), and DeFi protocols.",
+    "typicalUseCases": [
+      "Ethereum smart contracts",
+      "DeFi liquidity pools",
+      "NFT infrastructure",
+      "DAOs"
+    ],
+    "relatedLanguages": [
+      "Solidity"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Ethereum Virtual Machine (EVM)",
+    "buildRequirements": "Hardhat, Foundry, or Truffle (solc compiler)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Foundry",
+        "Hardhat",
+        "Ethers.js"
+      ],
+      "alternatives": [
+        "Vyper",
+        "Rust (for Solana)"
+      ]
+    },
+    "hostingOptions": [
+      "Ethereum",
+      "Polygon",
+      "Arbitrum",
+      "Optimism"
+    ],
+    "learningDifficulty": 4,
+    "advantages": [
+      "Native standard for EVM-based blockchain ecosystems",
+      "Deterministic gas-metered execution",
+      "Extensive security tooling (Slither, Mythril)"
+    ],
+    "limitations": [
+      "Immutable deployment makes fixing bugs costly and dangerous",
+      "Strict gas limits and reentrancy risks"
+    ],
+    "knownConstraints": [
+      "Requires blockchain network or local simulator (Anvil, Ganache) to execute"
+    ],
+    "securityNotes": "Subject to severe exploits (reentrancy, integer overflow); professional audit mandatory.",
+    "docsUrl": "https://docs.soliditylang.org/",
+    "repoUrl": "https://github.com/ethereum/solidity",
+    "license": "GPL-3.0",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  },
+  {
+    "id": "lang-graphql-spec",
+    "name": "GraphQL Schema",
+    "aliases": [
+      "GraphQL SDL"
+    ],
+    "type": "Language",
+    "category": "A. Languages and formats",
+    "categoryCode": "A",
+    "subcategory": "API Query Language Specification",
+    "shortDescription": "Query language for APIs and a runtime for fulfilling queries with existing data.",
+    "detailedExplanation": "GraphQL Schema is a foundational technology in software engineering. Query language for APIs and a runtime for fulfilling queries with existing data. It plays a primary role in Client-specified data fetching, microservice aggregation, and typed API contracts.",
+    "mainPurpose": "Client-specified data fetching, microservice aggregation, and typed API contracts.",
+    "typicalUseCases": [
+      "Single-endpoint web APIs",
+      "Mobile backends with bandwidth optimization",
+      "Unified graph gateways"
+    ],
+    "relatedLanguages": [
+      "GraphQL",
+      "TypeScript"
+    ],
+    "dependencies": [],
+    "runtimeRequirements": "Node.js, Python, Go, or Java GraphQL server runtime",
+    "buildRequirements": "GraphQL code generator (optional)",
+    "compatibility": {
+      "browser": "Modern Web Browsers",
+      "os": "Linux, macOS, Windows",
+      "offlineCapable": true
+    },
+    "role": "backend",
+    "relations": {
+      "database": [],
+      "api": [],
+      "complementary": [
+        "Apollo Server",
+        "GraphQL Yoga",
+        "Urql"
+      ],
+      "alternatives": [
+        "REST",
+        "gRPC",
+        "tRPC"
+      ]
+    },
+    "hostingOptions": [
+      "Any cloud server or serverless function"
+    ],
+    "learningDifficulty": 2,
+    "advantages": [
+      "Eliminates over-fetching and under-fetching of data",
+      "Single strongly typed schema acts as contract",
+      "Real-time subscriptions via WebSockets"
+    ],
+    "limitations": [
+      "Complex queries can overwhelm backend databases without query cost analysis",
+      "Caching is more complex than standard HTTP REST"
+    ],
+    "knownConstraints": [
+      "Requires GraphQL execution server engine to fulfill requests"
+    ],
+    "securityNotes": "Implement query depth limiting, cost analysis, and rate limiting against DoS attacks.",
+    "docsUrl": "https://spec.graphql.org/",
+    "repoUrl": "https://github.com/graphql/graphql-spec",
+    "license": "GraphQL Foundation",
+    "verifiedDate": "2026-03-01",
+    "catalogVersion": "1.0.0",
+    "isVerified": true
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Tech Atlas Studio",
+  "description": "The Interactive Map of Software Technology — an intelligence workspace for developers to discover, compare, evaluate, and compose software architectures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
